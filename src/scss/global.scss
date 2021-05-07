@@ -14,3 +14,16 @@ html {
   font-size: 16px;
   color: $blueDark;
 }
+
+.container {
+  max-width: 850px;
+  padding: 0 15px;
+  margin: 200px auto;
+}
+
+input {
+  font-family: Montserrat,
+    Arial,
+    sans-serif;
+  font-size: 16px;
+}

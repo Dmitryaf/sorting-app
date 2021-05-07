@@ -1,7 +1,14 @@
 import React from "react";
+import Table from "./Table/Table";
 
 function App() {
-  return <div className="App">app</div>;
+  return (
+    <div className="App">
+      <div className="container">
+        <Table />
+      </div>
+    </div>
+  );
 }
 
 export default App;

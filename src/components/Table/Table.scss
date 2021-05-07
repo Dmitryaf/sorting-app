@@ -1,0 +1,19 @@
+@import '../../scss/variables';
+
+.table {
+  width: 100%;
+  border: 1px solid $gray;
+  border-radius: 4px;
+  border-collapse: collapse;
+  table-layout: fixed;
+
+  &__td {
+    width: 100%;
+    padding: 10px;
+    border-right: 1px solid $gray;
+
+    &_center {
+      text-align: center;
+    }
+  }
+}
